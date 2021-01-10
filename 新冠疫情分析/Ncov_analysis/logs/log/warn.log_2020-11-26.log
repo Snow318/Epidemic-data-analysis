@@ -1,0 +1,431 @@
+2020-11-26 13:38:30 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:38:36 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:38:36 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:38:37 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:38:37 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.cleanupJob(FileOutputCommitter.java:383) ]
+WARN:Output Path is null in cleanupJob()
+2020-11-26 13:38:37 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapred.LocalJobRunner >> Method: org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:560) ]
+WARN:job_local1035767452_0001
+java.lang.Exception: java.io.IOException: Unknown column 'city' in 'field list'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.io.IOException: Unknown column 'city' in 'field list'
+	at org.apache.hadoop.mapreduce.lib.db.DBOutputFormat$DBRecordWriter.close(DBOutputFormat.java:103)
+	at org.apache.hadoop.mapred.ReduceTask$NewTrackingRecordWriter.close(ReduceTask.java:550)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:629)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-26 13:39:36 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:39:42 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:39:42 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:39:42 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:39:43 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:40:05 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:40:10 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:40:10 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:40:11 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:40:11 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:40:19 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:40:25 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:40:25 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:40:25 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:40:26 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:40:48 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:40:54 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:40:54 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:40:54 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:40:55 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:45:14 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:45:19 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:45:19 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:45:20 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:45:20 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:45:47 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:45:52 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:45:52 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:45:53 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:45:54 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:49:20 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:49:25 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:49:25 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:49:26 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:49:27 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:51:24 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:51:30 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:51:30 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:51:30 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:51:31 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:52:04 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:52:09 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:52:09 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:52:09 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:52:10 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:56:04 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:56:10 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:56:10 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:56:10 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:57:57 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 13:58:02 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 13:58:02 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 13:58:03 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 13:58:03 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 13:59:55 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:00:00 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:00:00 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:00:00 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:00:01 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:01:36 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:01:41 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:01:41 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:01:42 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:01:42 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:06:50 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:06:56 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:06:56 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:06:56 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:06:57 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:07:27 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:07:32 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:07:32 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:07:33 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:07:33 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:08:24 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:08:29 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:08:29 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:08:30 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:16:45 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:16:50 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:16:50 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:16:51 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:16:52 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.cleanupJob(FileOutputCommitter.java:383) ]
+WARN:Output Path is null in cleanupJob()
+2020-11-26 14:16:52 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapred.LocalJobRunner >> Method: org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:560) ]
+WARN:job_local499841106_0001
+java.lang.Exception: java.lang.ClassCastException: org.apache.hadoop.io.IntWritable cannot be cast to org.apache.hadoop.io.Text
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.ClassCastException: org.apache.hadoop.io.IntWritable cannot be cast to org.apache.hadoop.io.Text
+	at com.hadoop.part2.Part1Reduce.reduce(Part1Reduce.java:17)
+	at com.hadoop.part2.Part1Reduce.reduce(Part1Reduce.java:1)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-26 14:17:11 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:17:16 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:17:16 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:17:17 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:17:17 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.cleanupJob(FileOutputCommitter.java:383) ]
+WARN:Output Path is null in cleanupJob()
+2020-11-26 14:17:17 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapred.LocalJobRunner >> Method: org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:560) ]
+WARN:job_local1727238140_0001
+java.lang.Exception: java.io.IOException: Type mismatch in value from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in value from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.hadoop.part2.Part1Mapper.map(Part1Mapper.java:128)
+	at com.hadoop.part2.Part1Mapper.map(Part1Mapper.java:1)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-26 14:18:18 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:18:23 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:18:23 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:18:24 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:18:24 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.cleanupJob(FileOutputCommitter.java:383) ]
+WARN:Output Path is null in cleanupJob()
+2020-11-26 14:18:24 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapred.LocalJobRunner >> Method: org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:560) ]
+WARN:job_local1156575822_0001
+java.lang.Exception: java.io.IOException: Type mismatch in value from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in value from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at com.hadoop.part2.Part1Mapper.map(Part1Mapper.java:128)
+	at com.hadoop.part2.Part1Mapper.map(Part1Mapper.java:1)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-26 14:19:14 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:19:19 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:19:19 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:19:20 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:19:21 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:20:47 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:20:53 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:20:53 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:20:53 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:20:54 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:25:08 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:25:14 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:25:14 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:25:14 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:25:15 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:25:45 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:25:50 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:25:50 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:25:51 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:25:51 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:28:11 涓嬪崍 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:28:17 涓嬪崍 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:28:17 涓嬪崍 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:28:17 涓嬪崍 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:28:18 涓嬪崍 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:29:17 涓嬪崍 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:29:22 涓嬪崍 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:29:22 涓嬪崍 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:29:23 涓嬪崍 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:29:23 涓嬪崍 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:31:13 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:31:18 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:31:18 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:31:19 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:31:20 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:32:27 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:32:32 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:32:32 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:32:33 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:32:34 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:34:28 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:34:34 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:34:34 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:34:35 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:34:35 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:35:37 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:35:42 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:35:42 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:35:43 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:35:44 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:37:08 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:37:14 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:37:14 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:37:15 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:37:16 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 14:38:54 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 14:38:59 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 14:38:59 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 14:39:00 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 14:39:00 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 15:23:39 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 15:23:44 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 15:23:44 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 15:23:45 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 15:23:46 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 15:23:51 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 15:23:57 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 15:23:57 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 15:23:57 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 15:23:58 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 15:24:04 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 15:24:09 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 15:24:09 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 15:24:10 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 15:24:11 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()
+2020-11-26 15:24:16 下午 [Thread: main][ Class:org.apache.hadoop.util.NativeCodeLoader >> Method: org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) ]
+WARN:Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-26 15:24:22 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:153) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2020-11-26 15:24:22 下午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobSubmitter >> Method: org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2020-11-26 15:24:22 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:295) ]
+WARN:Output Path is null in setupJob()
+2020-11-26 15:24:23 下午 [Thread: Thread-11][ Class:org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter >> Method: org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:322) ]
+WARN:Output Path is null in commitJob()

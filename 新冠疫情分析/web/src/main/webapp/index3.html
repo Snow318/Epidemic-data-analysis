@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>新冠疫情数据分析</title>
+  <link rel="stylesheet" href="layui-src/dist/css/layui.css">
+</head>
+
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+  <div class="layui-header">
+    <div class="layui-logo">新冠疫情数据分析</div>
+    <ul class="layui-nav layui-layout-left">
+      <li class="layui-nav-item"><a href="">可视化主页</a></li>
+    </ul>
+    <ul class="layui-nav layui-layout-right">
+      <li class="layui-nav-item">
+        <a href="javascript:;">
+
+        </a>
+        <dl class="layui-nav-child">
+          <dd><a href="http://localhost:8088/">退出系统</a></dd>
+        </dl>
+      </li>
+    </ul>
+  </div>
+
+  <div class="layui-side layui-bg-black">
+      <div class="layui-side-scroll">
+        <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+        <ul class="layui-nav layui-nav-tree" lay-filter="test">
+          <li class="layui-nav-item layui-nav-itemed">
+            <a class="" href="javascript:;">新冠疫情数据分析</a>
+            <dl class="layui-nav-child">
+              <dd><a href="index.html">各城市疫情分析（确诊）</a></dd>
+              <dd><a href="index2.html">湖北每天确诊人数</a></dd>
+              <dd><a href="index3.html">全国疑似病例</a></dd>
+              <dd><a href="index4.html">各城市疫情分析（死亡）</a></dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="layui-body" style="padding: 20px; ">
+      <!-- 内容主体区域 -->
+      <blockquote class="layui-elem-quote">截止到2020-11-24</blockquote>
+      <div id="map" style="height:580px;"></div>
+    </div>
+
+    <div class="layui-footer">
+    </div>
+  </div>
+  <script src="layui-src/dist/layui.js"></script>
+  <script>
+    //JavaScript代码区域
+    layui.use('element', function () {
+      var element = layui.element;
+
+    });
+  </script>
+</body>
+
+</html>
+<script src="./public/echarts.common.min.js"></script>
+<script src="./data/gdps.js"></script>
+<script src="./js/jquery.js"></script>
+<script>
+
+  $.get('http://localhost:8088/get5', function (res) {
+    var top20Chart = echarts.init(document.getElementById('map'));
+    top20Chart.setOption({
+    	 tooltip: {
+    	        trigger: 'axis',
+    	        axisPointer: {
+    	          type: 'shadow'
+    	        }
+    	      },
+    	      legend: {
+    	        data: ['']
+    	      },
+    	      grid: {
+    	        left: '3%',
+    	        right: '4%',
+    	        bottom: '3%',
+    	        containLabel: true
+    	      },
+    	      xAxis: {
+    	        type: 'value',
+    	        boundaryGap: [0, 0.01]
+    	      },
+    	      yAxis: {
+    	        type: 'category',
+    	        data: res.key
+    	      },
+    	      series: [
+    	        {
+    	          name: '疑似病例',
+    	          type: 'bar',
+    	          data: res.val
+    	        }
+    	      ]
+    });
+  });
+</script>
